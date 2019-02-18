@@ -1,0 +1,25 @@
+.portafolio{
+    & .portafolio-title{
+        & h1{
+            // padding: 0;
+            .background(@rosa);
+            color: @white;
+            border-radius: @radius3;
+        }
+    }
+    & .portafolio-content{
+        // width: 300px;
+        // height: 30vw;
+        .border(@rosa);
+        border-radius: @radius3;
+        & .carousel{
+            padding: 0;
+            width:  300px;
+            height:  100%;
+            & img{
+                .size(100%)
+            }
+        }
+    }
+    
+}

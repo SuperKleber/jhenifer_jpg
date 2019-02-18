@@ -1,0 +1,23 @@
+
+//menu bootstrap
+
+.navbar{
+    background: @rosa !important;
+    padding: 0.2rem 1rem !important;
+    & .navbar-brand{
+        position: relative;
+        & .logojpg{
+            position: absolute;
+            top:35px;
+            right: -20px;
+        }
+    }
+    & .navbar-nav{
+        & .nav-item{
+            transition: .2s;
+            &:hover{
+                color: @amarillo !important;
+            }
+        }
+    }
+}

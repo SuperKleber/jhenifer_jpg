@@ -1,0 +1,116 @@
+* {
+  font-family: "myriad-pro" !important;
+}
+body {
+  background: url("../assets/images/background.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.navbar {
+  background: #D1136A !important;
+  padding: 0.2rem 1rem !important;
+}
+.navbar .navbar-brand {
+  position: relative;
+}
+.navbar .navbar-brand .logojpg {
+  position: absolute;
+  top: 35px;
+  right: -20px;
+}
+.navbar .navbar-nav .nav-item {
+  transition: 0.2s;
+}
+.navbar .navbar-nav .nav-item:hover {
+  color: #F7F00B !important;
+}
+.about .avatar img {
+  width: 288px;
+  height: 288px;
+}
+.about .card {
+  width: 35rem;
+}
+@media screen and (max-width:415px) {
+  .about .card {
+    width: 18rem;
+  }
+}
+.about .card .card-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.about .card .card-body .aboutDescription {
+  min-width: 80%;
+}
+.about .card .card-body .aboutList {
+  min-width: 80%;
+  max-width: 100%;
+}
+@media screen and (max-width:415px) {
+  .about .card .card-body .aboutList {
+    width: 100vw;
+    max-width: 100vw;
+    overflow: auto;
+  }
+}
+.about .card .card-body .aboutList .list-group {
+  display: flex;
+  flex-direction: initial;
+}
+@media screen and (max-width:801px) {
+  .about .card .card-body .aboutList .list-group {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:415px) {
+  .about .card .card-body .aboutList .list-group {
+    flex-direction: initial;
+    transform: translateX(-10px);
+    flex-wrap: initial;
+  }
+}
+.about .card .card-body .aboutList .list-group .list-group-item {
+  display: flex;
+  align-items: center;
+}
+.about .card .card-body .aboutList .list-group .list-group-item h6 {
+  font-size: 0.9em;
+}
+.about .card .card-body .aboutList .list-group .list-group-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.portafolio .portafolio-title h1 {
+  background: #D1136A;
+  background-attachment: fixed;
+  background-size: 100%;
+  color: #FFFB;
+  border-radius: 5px;
+}
+.portafolio .portafolio-content {
+  border: 2px solid #D1136A;
+  border-radius: 5px;
+}
+.portafolio .portafolio-content .carousel {
+  padding: 0;
+  width: 300px;
+  height: 100%;
+}
+.portafolio .portafolio-content .carousel img {
+  width: 100%;
+  height: auto;
+}
+.footer {
+  background: #000008;
+}
+.footer .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
